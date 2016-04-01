@@ -2,44 +2,55 @@ body {
 	background-color: black;
 } 
 
+h1 {
+  color: white;
+}
+
 .main {
+  background-image: url('http://wallpapercave.com/wp/HoWuywn.jpg');
+  background-position: bottom;
   background-color: white;
   margin-top: 110px;
   padding-left: 100px;
   min-width: 1200px;
   height: 500px;
   position: relative;
-  z-index: 1;
 }
 
+/* CHARACTER */
 .ryu {
     width: 659px;
     height: 494px;
 }
 
-.ryu-ready, .ryu-still, .ryu-throwing {
+/*Characetr Poses*/
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool{
   width: 659px;
   height: 494px;
 }
 
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool{
   display: none;
 } 
 
+.ryu-ready {
+  background-image: url('../images/ryu-ready-position.gif');
+}
 
 .ryu-still {
   background-image: url('../images/ryu-standing-still.png');
-}
-
-.ryu-ready {
-  background-image: url('../images/ryu-ready-position.gif');
 }
 
 .ryu-throwing {
   background-image: url('../images/ryu-throwing-hadouken.png');
 }
 
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-cool {
+  background-image: url('../images/ryu-cool.gif');
+}
+
+/* FIREBALL */
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
   background-repeat: no-repeat;
 }
 .hadouken {
